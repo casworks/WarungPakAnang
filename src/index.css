@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;600;700&display=swap');
+
+:root {
+  --green-900: #0b2f1b;
+  --green-800: #144128;
+  --green-700: #1e8f4e;
+  --green-600: #2aa963;
+  --yellow-500: #f6d44b;
+  --yellow-300: #ffe8a6;
+  --white: #ffffff;
+  --cream: #fff9e4;
+  --shadow: 0 22px 44px -32px rgba(12, 50, 26, 0.55);
+
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--green-900);
+  background-color: var(--cream);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(
+        circle at 12% 12%,
+        rgba(246, 212, 75, 0.35),
+        rgba(246, 212, 75, 0) 45%
+      ),
+    radial-gradient(
+        circle at 80% 10%,
+        rgba(30, 143, 78, 0.18),
+        rgba(30, 143, 78, 0) 50%
+      ),
+    var(--cream);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
